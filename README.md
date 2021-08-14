@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working with [Yoma Digital Ltd](https://www.yoma.co.uk/)
 
-- 🌱 I’m currently learning **Knockout JS and how to fully customize Magento 2 Checkout**
+- 🌱 I’m currently learning **Knockout JS**
 
 - 💬 Ask me about **Magento and Wordpress**
 
