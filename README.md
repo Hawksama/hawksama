@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Knockout JS**
 
-- 💬 Ask me about **Magento and Wordpress**
+- 💬 Ask me about **Magento 2 Front-end & Back-end**
 
 - 📫 How to reach me **manue971@icloud.com**
 
