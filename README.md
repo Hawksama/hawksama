@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working with [Yoma Digital Ltd](https://www.yoma.co.uk/)
 
-- 🌱 I’m currently learning **Knockout JS**
+- 🌱 I’m currently learning **Shopify**
 
 - 💬 Ask me about **Magento 2 Front-end & Back-end**
 
