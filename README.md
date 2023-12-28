@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hawksama" alt="hawksama" /></a> </p>
 
-- 🔭 I’m currently working with [Unified](https://unified.co/)
+- 🔭 I’m currently working with [Developers Alliance](https://developers-alliance.com/)
 
 - 🌱 I’m currently learning **Shopify**
 
