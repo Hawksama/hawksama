@@ -7,9 +7,9 @@
 
 - 🔭 I’m currently working with [Developers Alliance](https://developers-alliance.com/)
 
-- 🌱 I’m currently learning **Shopify**
+- 🌱 I’m currently learning **Hyvä**
 
-- 💬 Ask me about **Magento 2 Front-end & Back-end**
+- 💬 Ask me about **Magento 2**
 
 - 📫 How to reach me **manue971@icloud.com**
 
