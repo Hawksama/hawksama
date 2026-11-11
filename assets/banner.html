@@ -1,0 +1,68 @@
+<!-- Source of assets/banner.jpg. Renders with the LIQUIDLAB profile kit: copy this file into brain-admin
+     skills/liquidlab-brain-admin/brand/assets/social-profiles/ (for its fonts/ and img/), then:
+     Chrome --headless --force-device-scale-factor=2 --window-size=1280,400 --screenshot=banner.png github.html
+     and convert to JPEG (sips -s format jpeg -s formatOptions 88). -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GitHub profile banner</title>
+<style>
+@font-face { font-family: 'Space Grotesk'; src: url(fonts/sg-latin.woff2) format('woff2'); font-weight: 300 700; }
+@font-face { font-family: 'JetBrains Mono'; src: url(fonts/jb-latin.woff2) format('woff2'); font-weight: 400 700; }
+/* LIQUIDLAB palette (brain-admin brand/visual-identity.md): navy ground, light blue for wins, orange for losses only. */
+:root { --brand: #0A2540; --deep: #061A2E; --mist: rgba(247,249,252,.74); --win: #4AA1F3; --orange: #FF7A45; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #222; }
+body { font-family: 'Space Grotesk', sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+#gh { position: relative; overflow: hidden; width: 1280px; height: 400px; }
+.bg { position: absolute; inset: 0; background:
+  radial-gradient(circle at 1px 1px, rgba(255,255,255,.09) 1px, transparent 1.6px) 0 0 / 26px 26px,
+  radial-gradient(70% 120% at 88% 0%, rgba(11,123,168,.42) 0%, rgba(11,123,168,0) 70%),
+  radial-gradient(120% 140% at 85% 20%, #10355C 0%, var(--brand) 45%, var(--deep) 100%); }
+.pill { white-space: nowrap; display: inline-flex; align-items: center; gap: 11px; font-family: 'JetBrains Mono', monospace; letter-spacing: .06em; text-transform: uppercase; border: 1.5px solid rgba(255,255,255,.38); border-radius: 999px; font-size: 15px; padding: 8px 18px 8px 14px; }
+.pill i { width: 9px; height: 9px; border-radius: 50%; background: var(--win); box-shadow: 0 0 0 4px rgba(74,161,243,.25); display: block; }
+.logo { filter: brightness(0) invert(1); display: block; }
+.old { color: var(--orange); position: relative; }
+.old::after { content: ''; position: absolute; left: -2%; right: -2%; top: 54%; height: .07em; background: var(--orange); border-radius: 4px; }
+.new { color: var(--win); }
+/* The Mainz photo (IMG_8400, the team with the award) in a panel whose slanted left edge fades into the navy. */
+.photo { position: absolute; top: 0; right: 0; width: 560px; height: 100%; overflow: hidden; clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%); }
+.photo img { position: absolute; display: block; width: 742px; left: -70px; top: -262px; }
+.photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,37,64,.5) 0%, rgba(10,37,64,0) 18%); }
+.copy { position: absolute; left: 64px; top: 46px; width: 680px; }
+.brandrow { display: flex; align-items: center; gap: 16px; }
+.brandrow .logo { height: 25px; }
+.brandrow .sep { width: 1.5px; height: 28px; background: rgba(255,255,255,.35); }
+h1 { font-size: 60px; line-height: 1.02; font-weight: 500; letter-spacing: -.035em; margin: 22px 0 18px; }
+.stats { font-family: 'JetBrains Mono', monospace; font-size: 20px; color: var(--mist); letter-spacing: .01em; display: grid; grid-template-columns: auto auto; column-gap: 22px; row-gap: 8px; width: max-content; }
+.stats .k { color: rgba(247,249,252,.55); text-transform: uppercase; font-size: 15px; letter-spacing: .08em; align-self: center; }
+.stats b { font-weight: 500; }
+.trust { position: absolute; left: 64px; bottom: 34px; display: flex; align-items: center; gap: 21px; }
+.trust span { font-size: 15px; color: rgba(255,255,255,.7); }
+.trust .cl { overflow: hidden; }
+.trust img { display: block; filter: brightness(0) invert(1); opacity: .92; }
+</style>
+</head>
+<body>
+<section id="gh">
+  <div class="bg"></div>
+  <div class="photo"><img src="img/img8400.jpg" alt=""></div>
+  <div class="copy">
+    <div class="brandrow"><img class="logo" src="img/liquidlab-logo.svg" alt="LIQUIDLAB"><span class="sep"></span><div class="pill"><i></i>Winner · HIVE Germany 2026</div></div>
+    <h1>Magento stores<br>that stay fast.</h1>
+    <div class="stats">
+      <span class="k">Server response</span><span><b class="old">15,814 ms</b> → <b class="new">12 ms</b></span>
+      <span class="k">Hardware</span><span><b class="old">64 cores, 256 GB</b> → <b class="new">8 cores, 32 GB</b></span>
+    </div>
+  </div>
+  <div class="trust">
+    <span>Trusted by</span>
+    <img src="img/clients/vitacom-logo-white.png" style="height:14px" alt="Vitacom">
+    <div class="cl" style="height:26px"><img src="img/clients/equitana-logo.png" style="height:36.1px" alt="Equitana"></div>
+    <div class="cl" style="height:16.5px"><img src="img/clients/kitandkin-logo.png" style="height:21.2px" alt="Kit&amp;Kin"></div>
+    <img src="img/clients/tomybaby-logo.png" style="height:20px" alt="ToMyBaby">
+  </div>
+</section>
+</body>
+</html>
