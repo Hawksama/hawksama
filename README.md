@@ -75,7 +75,7 @@ Three phases, each one shipped to production and measured before the next began:
 | [hyva-used-product-notice](https://github.com/Hawksama/hyva-used-product-notice) and [hyva-checkout-used-product-notice](https://github.com/Hawksama/hyva-checkout-used-product-notice) | A notice for used or no-warranty products on the product page, plus a confirmation step in Hyvä Checkout. |
 | [magento2-shopfinder-graphql](https://github.com/Hawksama/magento2-shopfinder-graphql) | GraphQL API and an admin grid for shop locations. |
 
-**At LIQUIDLAB** ([liquidlab-agency](https://github.com/liquidlab-agency), MIT)
+**At LIQUIDLAB** ([liquidlab-agency](https://github.com/liquidlab-agency))
 
 | Module | What it does |
 |---|---|
